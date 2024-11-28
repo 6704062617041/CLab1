@@ -3,10 +3,8 @@
 int main(){
 	int x ;
 	int y ;
-	printf("x:");
-	scanf("%d",&x);
-	printf("y:");
-	scanf("%d",&y);
+	scanf("%d %d",&x , &y);
+
 	if (x>y){
 		printf("x is greater than y");
 		//diff of x and y
